@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Player"
+    android:background="@drawable/headphones">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Trance"
+        android:id="@+id/texttv"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="60dp" />
+
+
+
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="135dp"
+        android:background="@drawable/ic_play_arrow_black_24dp"
+        />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/play"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="97dp"
+        android:background="@drawable/ic_pause_black_24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="97dp" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/pause"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="99dp"
+        android:background="@drawable/ic_stop_black_24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="99dp" />
+
+
+
+
+</RelativeLayout>
